@@ -9,6 +9,7 @@ body{
 
 .card{
     margin: 0;
+    margin-left:-35px;
     width: 200px;
     display: flex;
     flex-direction: column;
