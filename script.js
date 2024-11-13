@@ -30,7 +30,7 @@
 
         const response = await fetch(apiUrl);
         if(!response.ok){
-            throw new Error('could not fetch weather')
+            throw new Error(`could not fetch weather from ${city}`)
         }
         return await response.json();
     }
