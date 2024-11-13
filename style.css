@@ -1,0 +1,90 @@
+body{
+    background-color: hsl(240, 3%, 76%);
+    text-align: center;
+    margin: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.3s ease;
+}
+
+
+.card{
+    margin: 0;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg, hsl(222, 96%, 69%), hsl(39, 100%, 67%));
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
+    color: hsl(0, 0%, 18%);
+}
+
+input{
+    width: 200px;
+    padding: 8px 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    color: hsl(0, 0%, 18%);
+    border: 2px solid hsla(0, 0%, 20%, 0.3);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+button[type="submit"]{
+    padding: 8px 10px;
+    background-color: rgb(23, 154, 23);
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover{
+    background-color: rgb(15, 111, 1);
+
+}
+
+.city{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.temp{
+    margin: 0;
+    font-size: 2.5rem;
+    margin: 10px;
+}
+
+.humid{
+    font-size: 1.2rem;
+}
+
+.sky{
+    margin: 10px;
+    font-size: 2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.icon{
+    margin: 10px;
+    font-size: 5rem;
+}
+
+.error{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+@media screen and (width>500px) {
+    .card{
+        width: 400px;
+        margin-top: 30px;
+        margin-left: 35%;
+    }
+}
