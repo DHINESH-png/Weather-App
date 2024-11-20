@@ -1,6 +1,7 @@
 body{
     background-color: hsl(240, 3%, 76%);
     text-align: center;
+    align-items: center;
     margin: 80px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: 0.3s ease;
